@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Carrito de compras</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Lista de Compras</h1>
+    </header>
+    <div id="contenedor" class="contenedor">
+        <!-- Producto 1 -->
+        <div id="producto1" class="producto">
+            <img src="img/imagen1.webp" alt="producto 1">
+            <div class="informacion">
+                <p>Producto 1</p>
+                <p class="precio">S/.199<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 1', 199.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Producto 2 -->
+        <div id="producto2" class="producto">
+            <img src="img/imagen2.webp" alt="producto 2">
+            <div class="informacion">
+                <p>Producto 2</p>
+                <p class="precio">S/.299<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 2', 299.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Producto 3 -->
+        <div id="producto3" class="producto">
+            <img src="img/imagen3.webp" alt="producto 3">
+            <div class="informacion">
+                <p>Producto 3</p>
+                <p class="precio">S/.399<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 3', 399.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Producto 4 -->
+        <div id="producto4" class="producto">
+            <img src="img/imagen4.webp" alt="producto 4">
+            <div class="informacion">
+                <p>Producto 4</p>
+                <p class="precio">S/.499<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 4', 499.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Producto 5 -->
+        <div id="producto5" class="producto">
+            <img src="img/imagen5.webp" alt="producto 5">
+            <div class="informacion">
+                <p>Producto 5</p>
+                <p class="precio">S/.599<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 5', 599.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Producto 6 -->
+        <div id="producto6" class="producto">
+            <img src="img/imagen6.webp" alt="producto 6">
+            <div class="informacion">
+                <p>Producto 6</p>
+                <p class="precio">S/.699<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 6', 699.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Producto 7 -->
+        <div id="producto7" class="producto">
+            <img src="img/imagen7.webp" alt="producto 7">
+            <div class="informacion">
+                <p>Producto 7</p>
+                <p class="precio">S/.799<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 7', 799.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Producto 8 -->
+        <div id="producto8" class="producto">
+            <img src="img/imagen8.webp" alt="producto 8">
+            <div class="informacion">
+                <p>Producto 8</p>
+                <p class="precio">S/.899<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 8', 899.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Producto 9 -->
+        <div id="producto9" class="producto">
+            <img src="img/imagen9.webp" alt="producto 9">
+            <div class="informacion">
+                <p>Producto 9</p>
+                <p class="precio">S/.999<span>.99</span></p>
+                <button onclick="agregarProducto('Producto 9', 999.99)">Agregar al Carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="compras" id="compras">
+        <h2>Carrito de Compras</h2>
+        <ul id="listaCompras">
+
+        </ul>
+        <button id="limpiarLista" onclick="limpiarLista()">Limpiar Lista</button>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
